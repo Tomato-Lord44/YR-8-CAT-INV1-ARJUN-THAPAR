@@ -1,0 +1,8 @@
+def startriangle(n):
+    if n == 0:   # base case
+        return
+    print("*" * n)
+    startriangle(n - 1)   # recursive call
+
+i = int(input("Enter a number: "))
+startriangle(i)

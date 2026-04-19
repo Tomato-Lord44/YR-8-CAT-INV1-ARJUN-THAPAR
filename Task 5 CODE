@@ -1,0 +1,10 @@
+def triangularnumber(n):
+    # Base case: if n is 1, the sum is just 1
+    if n == 1:
+        return 1
+    # Recursive step: the function calls itself
+    else:
+        return n + triangularnumber(n - 1)
+      
+i = int(input("Enter a number: "))
+print(triangularnumber(i))
