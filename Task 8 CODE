@@ -1,0 +1,26 @@
+import turtle as t
+t.speed(0)
+t.setheading(90)#faces north
+
+def SimpleTree(level):
+    if level == 0: #base case. if the level is 0, then we stop drawing
+        return  #returns to the previous level of the tree
+    
+    t.forward(l*s) #draws the trunk of the tree
+
+    t.left(15)
+    SimpleTree(level - 1) #recursive call to draw the left branch of the tree if the level is 3, then it will draw a level two tree (level-1)
+
+    t.right(30) #turns the turtle to the right by 60 degrees to draw the right branch of the tree
+    SimpleTree(level - 1) #same as before, but this one is for the riht subtree.
+
+    t.left(15)
+    t.backward(l*s) #moves the turtle back to the original position before drawing the trunk of the tree, so that it can draw the next branch of the tree.
+
+i = int(input("Enter the level of the tree: "))
+l = int(input("Enter the length of the trunk: "))
+a = int(input("Enter the length of the angle between branches: "))
+s = float(input("Enter the scale (what each one after the trunk will go down by): "))
+
+SimpleTree(i)
+t.done()
