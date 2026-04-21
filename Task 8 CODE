@@ -1,26 +1,34 @@
 import turtle as t
+screen = t.Screen()
+screen.tracer(0) #turns off the animation, so that the tree can be drawn faster. We will call t.update() at the end to update the screen with the final drawing of the tree.
+t.ht() # hides the turtle
 t.speed(0)
-t.setheading(90)#faces north
+t.setheading(270)#faces south
+t.penup()
+t.forward(250)
+t.setheading(90)
+t.pendown() #makes the turtle go a bit lower, so that there is more space.
 
-def SimpleTree(level):
+def SimpleTree(level, length):
     if level == 0: #base case. if the level is 0, then we stop drawing
         return  #returns to the previous level of the tree
     
-    t.forward(l*s) #draws the trunk of the tree
+    t.forward(length) #draws the trunk of the tree
 
-    t.left(15)
-    SimpleTree(level - 1) #recursive call to draw the left branch of the tree if the level is 3, then it will draw a level two tree (level-1)
+    t.left(a)
+    SimpleTree(level - 1, length * s) #recursive call to draw the left branch of the tree if the level is 3, then it will draw a level two tree (level-1)
 
-    t.right(30) #turns the turtle to the right by 60 degrees to draw the right branch of the tree
-    SimpleTree(level - 1) #same as before, but this one is for the riht subtree.
+    t.right(2*a) #turns the turtle to the right by 60 degrees to draw the right branch of the tree
+    SimpleTree(level - 1, length * s) #same as before, but this one is for the riht subtree.
 
-    t.left(15)
-    t.backward(l*s) #moves the turtle back to the original position before drawing the trunk of the tree, so that it can draw the next branch of the tree.
+    t.left(a)
+    t.backward(length) #moves the turtle back to the original position before drawing the trunk of the tree, so that it can draw the next branch of the tree.
 
 i = int(input("Enter the level of the tree: "))
 l = int(input("Enter the length of the trunk: "))
 a = int(input("Enter the length of the angle between branches: "))
-s = float(input("Enter the scale (what each one after the trunk will go down by): "))
+s = float(input("Enter the scale (e.g. 0.75): "))
 
-SimpleTree(i)
+SimpleTree(i, l)
+t.update() #updates the screen with the final drawing of the tree, so that we can see the tree after it has been drawn.
 t.done()
