@@ -22,22 +22,21 @@ def randomfractaltree(level, length):
 
     if level == 0: #base case. if the level is 0, then we stop drawing
         return  #returns to the previous level of the tree
-    
-    rand_length = random.randint(int(baselength-10), int(baselength+10)) #random length for the trunk of the tree, so that the tree looks more natural
-    t.forward(rand_length) #draws the trunk of the tree
+
+    t.forward(length) #draws the trunk of the tree
 
     rand_angle = random.randint(int(a-10), int(a+10)) #random angle for the branches of the tree, so that the tree looks more natural
     rand_scale = random.uniform(s-0.1, s+0.1) #random scale for the branches of the tree, so that the tree looks more natural
     
     t.left(rand_angle)
-    randomfractaltree(level - 1, rand_length * rand_scale) #recursive call to draw the left branch of the tree if the level is 3, then it will draw a level two tree (level-1)
+    randomfractaltree(level - 1, length * rand_scale) #recursive call to draw the left branch of the tree if the level is 3, then it will draw a level two tree (level-1)
     
     t.right(2*rand_angle)
-    randomfractaltree(level - 1, rand_length * rand_scale) #same as before, but this one is for the riht subtree.
+    randomfractaltree(level - 1, length * rand_scale) #same as before, but this one is for the riht subtree.
 
     #reset
     t.left(rand_angle)
-    t.backward(rand_length) 
+    t.backward(length) 
 
 i = int(input("Enter the level of the tree: "))
 baselength = int(input("Enter the length of the trunk: "))
