@@ -1,0 +1,17 @@
+import turtle as t
+import random
+
+screen = t.Screen()
+screen.tracer(0) #turns off the animation, so that the tree can be drawn faster. We will call t.update() at the end to update the screen with the final drawing
+t.ht() # hides the turtle
+t.speed(0)
+t.setheading(270)#faces south
+t.penup()
+t.forward(250)
+t.setheading(90)
+t.pendown() #makes the turtle go a bit lower, so that there is more space.
+
+#global variables
+a=0
+s=0
+baselength=0
