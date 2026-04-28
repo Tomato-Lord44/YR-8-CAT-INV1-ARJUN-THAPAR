@@ -1,9 +1,104 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="pARepQWkxVl4rxGK0H3F">
-    <mxGraphModel>
+    <mxGraphModel dx="890" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-3" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start Program" vertex="1">
+          <mxGeometry height="100" width="160" x="334" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-7" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="ask user for level of tree. store&lt;div&gt;value as variable &quot;level&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="186" x="321" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-9" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="ask user for the length of the&lt;div&gt;trunk. store value as variable&lt;/div&gt;&lt;div&gt;&quot;length&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="186" x="321" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-11" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="ask user for the angle between&lt;div&gt;branches. store value as&amp;nbsp;&lt;/div&gt;&lt;div&gt;variable &quot;angle&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="186" x="321" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-14" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="ask user for the scale by which&amp;nbsp;&lt;div&gt;the trunk go down by. store variable as &quot;scale&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="186" x="321" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="these two values will be the middle number of the range. i will have a line random.randint(n+10, n-10), or whatever is suitable for the situation. i will save the new value to a variable with the same name" vertex="1">
+          <mxGeometry height="30" width="290" x="31" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-16" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-20" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="is level == 0?" vertex="1">
+          <mxGeometry height="125" width="136" x="346" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="return" vertex="1">
+          <mxGeometry height="87.5" width="110" x="590" y="908.75" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="422" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-22" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-19" parent="1" style="whiteSpace=wrap;html=1;" value="forward(length)" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="1127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-25" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-21" parent="1" style="whiteSpace=wrap;html=1;" value="left(rand_angle)" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="1267.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="this is the only change from task 8" vertex="1">
+          <mxGeometry height="30" width="290" x="537" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-27" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-24" parent="1" style="whiteSpace=wrap;html=1;" value="call randomfractaltree(level-1, length*rand_scale)" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="1407.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-29" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-26" parent="1" style="whiteSpace=wrap;html=1;" value="right(2*rand_angle)" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="1547.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-31" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-28" parent="1" style="whiteSpace=wrap;html=1;" value="call randomfractaltree(level-1, length*rand_scale)" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="1687.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-33" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-30" parent="1" style="whiteSpace=wrap;html=1;" value="left(rand_angle)" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="1827.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nuo_ZLE-G4CHtduZSh2h-32" parent="1" style="whiteSpace=wrap;html=1;" value="backward(length)" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="1967.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
