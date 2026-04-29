@@ -1,0 +1,55 @@
+import turtle as t
+import random
+
+screen = t.Screen()
+screen.tracer(0) #turns off the animation, so that the tree can be
+t.ht() 
+t.speed(0)
+t.setheading(270)#faces south
+t.penup()
+t.forward(250)
+t.setheading(90)
+t.pendown() 
+
+a=0
+s=0
+baselength=0
+
+def randomfractaltree(level, length):
+
+    global a,s, baselength
+
+    if level == 0:
+        t.color("green")
+        t.dot(20)
+        return 
+    # this makes it so that when the level is 0, it will draw a green dot to make the leaves of the tree, to make it more natural looking.
+
+    t.pensize(level*2) #makes the thickenss of the branches slowly get smaller. i could have excluded the level*2, but this is my first test, so its fine.
+
+    if level > 2:
+        t.color("sienna")# found a cool brown colour that works for turtle
+    else:
+        t.color("green") #makes the branches green when they are smaller, to make it look more natural.
+
+    t.forward(length)
+    rand_angle = random.randint(int(a-10), int(a+10))
+    rand_scale = random.uniform(s-0.1, s+0.1)
+
+    t.left(rand_angle)
+    randomfractaltree(level - 1, length * rand_scale)
+
+    t.right(2*rand_angle)
+    randomfractaltree(level - 1, length * rand_scale) #this bit is the same as task 10
+
+    t.left(rand_angle)
+    t.backward(length)
+
+i = int(input("Enter the level of the tree: "))
+baselength = int(input("Enter the length of the trunk: "))
+a = int(input("Enter the angle between branches: "))
+s = float(input("Enter the scale (e.g. 0.75): "))
+
+randomfractaltree(i, baselength)
+t.update()
+t.done()
