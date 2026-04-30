@@ -17,6 +17,7 @@ def SimpleTree(level):
     t.left(15)
     t.backward(50) #moves the turtle back to the original position before drawing the trunk of the tree, so that it can draw the next branch of the tree.
 
+print("## USER INTERFACE ##")
 i = int(input("Enter the level of the tree: "))
 SimpleTree(i)
 t.done()

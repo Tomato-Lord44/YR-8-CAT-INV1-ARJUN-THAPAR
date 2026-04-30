@@ -38,6 +38,7 @@ def randomfractaltree(level, length):
     t.left(rand_angle)
     t.backward(length) 
 
+print("## USER INTERFACE ##")
 i = int(input("Enter the level of the tree: "))
 baselength = int(input("Enter the length of the trunk: "))
 a = int(input("Enter the angle between branches: "))
