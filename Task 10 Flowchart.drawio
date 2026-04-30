@@ -55,7 +55,7 @@
           <mxGeometry height="30" width="60" x="500" y="920" as="geometry" />
         </mxCell>
         <mxCell id="nuo_ZLE-G4CHtduZSh2h-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="no" vertex="1">
-          <mxGeometry height="30" width="60" x="422" y="1010" as="geometry" />
+          <mxGeometry height="30" width="60" x="422" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="nuo_ZLE-G4CHtduZSh2h-22" edge="1" parent="1" source="nuo_ZLE-G4CHtduZSh2h-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nuo_ZLE-G4CHtduZSh2h-21" value="">
           <mxGeometry relative="1" as="geometry" />
