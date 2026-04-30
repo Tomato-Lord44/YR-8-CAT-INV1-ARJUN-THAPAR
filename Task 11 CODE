@@ -43,7 +43,9 @@ def randomfractaltree(level, length):
     randomfractaltree(level - 1, length * rand_scale) #this bit is the same as task 10
 
     t.left(rand_angle)
+    t.penup()
     t.backward(length)
+    t.pendown()
 
 i = int(input("Enter the level of the tree: "))
 baselength = int(input("Enter the length of the trunk: "))

@@ -1,3 +1,5 @@
+##IMPORTANT: THIS CODE IS THE SAME AS TASK 8, AS I DIDNT REALISE WE WERE ONLY SUPPOSED TO MAKE A USER INTERFACE FOR TASK 9##
+
 import turtle as t
 screen = t.Screen()
 screen.tracer(0) #turns off the animation, so that the tree can be drawn faster. We will call t.update() at the end to update the screen with the final drawing of the tree.
@@ -19,7 +21,7 @@ def SimpleTree(level, length):
     SimpleTree(level - 1, length * s) #recursive call to draw the left branch of the tree if the level is 3, then it will draw a level two tree (level-1)
 
     t.right(2*a) #turns the turtle to the right by 60 degrees to draw the right branch of the tree
-    SimpleTree(level - 1, length * s) #same as before, but this one is for the riht subtree.
+    SimpleTree(level - 1, length * s) #same as before, but this one is for the right subtree.
 
     t.left(a)
     t.backward(length) #moves the turtle back to the original position before drawing the trunk of the tree, so that it can draw the next branch of the tree.
