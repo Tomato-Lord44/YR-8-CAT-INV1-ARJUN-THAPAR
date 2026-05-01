@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="yo-RNO0IqCbMgI7FC5lK">
+    <mxGraphModel dx="1023" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-4" edge="1" parent="1" source="YlIsJpKRf_YtylQmcXmx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start Program" vertex="1">
+          <mxGeometry height="80" width="120" x="354" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-7" edge="1" parent="1" source="YlIsJpKRf_YtylQmcXmx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YlIsJpKRf_YtylQmcXmx-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Ask user for startriangle number" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-9" edge="1" parent="1" source="YlIsJpKRf_YtylQmcXmx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YlIsJpKRf_YtylQmcXmx-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-13" edge="1" parent="1" source="YlIsJpKRf_YtylQmcXmx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YlIsJpKRf_YtylQmcXmx-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="is level=0?" vertex="1">
+          <mxGeometry height="80" width="80" x="370" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Return" vertex="1">
+          <mxGeometry height="80" width="120" x="520" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-15" edge="1" parent="1" source="YlIsJpKRf_YtylQmcXmx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YlIsJpKRf_YtylQmcXmx-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-12" parent="1" style="whiteSpace=wrap;html=1;" value="print n number of dots" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="YlIsJpKRf_YtylQmcXmx-14" parent="1" style="whiteSpace=wrap;html=1;" value="startriangle(n-1)" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
